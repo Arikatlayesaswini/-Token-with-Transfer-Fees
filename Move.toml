@@ -1,0 +1,15 @@
+[package]
+name = "TokenwithTransferFees"
+version = "1.0.0"
+authors = []
+
+[addresses]
+yassu_addr = "0x86a1f77a50177fd2ce9141312e4b6a0b23f0ce5960634dfcc2040863eba27ec8"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
